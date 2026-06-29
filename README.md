@@ -5,7 +5,7 @@ only a **single bidder** — a recognized indicator of low competition and
 potential procurement risk.
 
 Developed during an internship at **TOO "АБМ компании"** as part of the
-Big Data Analysis / Mathematical and Computational Science program.
+Mathematical and Computational Science program.
 
 ---
 
@@ -67,7 +67,7 @@ found during exploratory analysis.
 ```
 .
 ├── data/
-│   └── tenders_clean.csv          # cleaned sample (or link to Kaggle)
+│   └── tenders_clean.csv        # cleaned sample (or link to Kaggle)
 ├── figures/
 │   ├── class_distribution.png
 │   ├── confusion_matrix.png
@@ -76,10 +76,10 @@ found during exploratory analysis.
 │   ├── shap_bar.png
 │   └── shap_summary.png
 ├── notebooks/
-│   ├── week1-2.py                # loading, target, cleaning, EDA
-│   ├── week2-3.py              # encoding, models, metrics
-│   └── SHAP_analysis.py               # SHAP interpretation
-├── single_bidder_model.pkl        # trained model
+│   ├── week1-2.py               # loading, target, cleaning, EDA
+│   ├── week2-3.py               # encoding, models, metrics
+│   └── SHAP_analysis.py         # SHAP interpretation
+├── single_bidder_model.pkl      # trained model
 └── README.md
 ```
 
